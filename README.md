@@ -41,8 +41,12 @@ const RegistrationForm = () => {
           <input type="text" className='form-control' placeholder="Your name" {...register("name")} />
         </div>
         <div class="mb-3">
-          <input type="email" className='form-control' placeholder="Your email" {...register("email", {
-             required: true })} />
+          <input type="text" className='form-control' placeholder="Your email" {...register("email", {
+          required: "Please Enter Your Email!",
+          pattern: {
+              value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i, 
+              message: "Please Enter A Valid Email!"}
+          })} />
           {errors.email && <span style={{ color: "red" }}>
             *Email* is mandatory </span>}
         </div>
