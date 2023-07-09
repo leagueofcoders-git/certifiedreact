@@ -18,7 +18,7 @@
 },  
 ```
 
-**Module 12**
+**Module 12 - Registration Form**
 
 ```
 import React from "react";
@@ -82,5 +82,10 @@ const RegistrationForm = () => {
 }
 
 export default RegistrationForm
+```
+
+**Module 12 - Login Form**
+
+```
 ```
 
