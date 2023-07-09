@@ -126,7 +126,7 @@ function Login() {
                     <input type="password"  className='form-control'{...register("password")} />
                 </div>
                 <div className="mb-3">
-                    <input type="submit" className="btn btn-primary mb-3" />
+                    <input type="submit" className="btn btn-primary mb-3" value="Login" />
                 </div>
                 <div className="mb-3">
                     <p className={alert}>{loginInfo}</p>
