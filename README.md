@@ -28,8 +28,11 @@ const RegistrationForm = () => {
 
   const { register,getValues, handleSubmit, formState: { errors } } = useForm();
   const onMySubmit = (data) => {
-    //save data to database
-    alert(JSON.stringify(data));
+    //save data to local storage
+    localStorage.setItem("userdata",JSON.stringify({ 
+      email: data.email, password: data.password 
+  }));
+    alert(localStorage.getItem("userdata"));
   };
 
   return (
