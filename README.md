@@ -18,7 +18,7 @@
 },  
 ```
 
-**Module 11**
+**Module 12**
 
 ```
 import React from "react";
