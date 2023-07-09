@@ -30,7 +30,7 @@ const RegistrationForm = () => {
   const onMySubmit = (data) => {
     //save data to local storage
     localStorage.setItem("userdata",JSON.stringify({ 
-      email: data.email, password: data.password 
+      name: data.name, email: data.email, password: data.password 
   }));
     alert(localStorage.getItem("userdata"));
   };
