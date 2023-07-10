@@ -146,7 +146,7 @@ export default Login;
                     return (
                         <div className="col" key={movielist.id}>
                         <div className="card h-100">
-                            <img src={'https://image.tmdb.org/t/p/w500/' + movielist.backdrop_path} className="card-img-top" />
+                            <img src={'https://image.tmdb.org/t/p/w500/' + movielist.poster_path} className="card-img-top" />
                             <div className="card-body">
                                 <h5 className="card-title">{movielist.original_title}</h5>
                                 <p className="card-text">{movielist.overview}</p>
