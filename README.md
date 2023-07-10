@@ -144,7 +144,7 @@ export default Login;
             <div className="row row-cols-1 row-cols-md-3 g-4">           
                 {movies.map((movielist) => {
                     return (
-                        <div className="col">
+                        <div className="col" key={movielist.id}>
                         <div className="card h-100">
                             <img src={'https://image.tmdb.org/t/p/w500/' + movielist.backdrop_path} className="card-img-top" alt="..." />
                             <div className="card-body">
