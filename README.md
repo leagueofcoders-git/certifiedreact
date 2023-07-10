@@ -137,4 +137,28 @@ function Login() {
 }
 export default Login;
 ```
+**Module 13 - Movies.js**
 
+```
+ return (
+        <div className="container">
+            <div className="row row-cols-1 row-cols-md-3 g-4">           
+                {movies.map((movielist) => {
+                    return (
+                        <div className="col">
+                        <div className="card h-100">
+                            <img src={'https://image.tmdb.org/t/p/w500/' + movielist.backdrop_path} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">{movielist.original_title}</h5>
+                                <p className="card-text">{movielist.overview}</p>
+                            </div>
+                            <div className="card-footer">
+                                <small className="text-muted">Release Date: {movielist.release_date}</small>
+                            </div>
+                        </div>
+                        </div>
+                    )
+                })}
+            </div>    
+        </div>
+```
