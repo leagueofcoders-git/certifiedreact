@@ -140,8 +140,7 @@ export default Login;
 **Module 13 - Movies.js**
 
 ```
- return (
-        <div className="container">
+<div className="container">
             <div className="row row-cols-1 row-cols-md-3 g-4">           
                 {movies.map((movielist) => {
                     return (
@@ -160,5 +159,5 @@ export default Login;
                     )
                 })}
             </div>    
-        </div>
+</div>
 ```
