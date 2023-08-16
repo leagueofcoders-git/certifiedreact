@@ -137,7 +137,7 @@ function Login() {
 }
 export default Login;
 ```
-**Module 12 - EditRegistration**
+**Module 12 - EditRegistration Form**
 ```
 import React, {useState} from "react";
 import { useForm } from "react-hook-form";
