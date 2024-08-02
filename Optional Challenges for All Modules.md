@@ -1,5 +1,5 @@
-#Module 04 - Optional Challenge 1 - Rendering Array of Objects
-**Solution1**
+# Module 04 - Optional Challenge 1 - Rendering Array of Objects
+** Solution 1 **
 ```
 import './App.css';
 import React from 'react'
