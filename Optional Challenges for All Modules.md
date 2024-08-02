@@ -1,4 +1,4 @@
-*Module 04 - Optional Challenge 1 - Rendering Array of Objects*
+#Module 04 - Optional Challenge 1 - Rendering Array of Objects
 **Solution1**
 ```
 import './App.css';
